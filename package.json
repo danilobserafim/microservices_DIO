@@ -1,0 +1,27 @@
+{
+  "name": "microservice_dio",
+  "version": "1.0.0",
+  "description": "Micro serviço criado a partir das aulas da Digital Inovation One com o professor Renan johannsen",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilobserafim/microservices_DIO.git"
+  },
+  "keywords": [
+    "backend/node/microservice"
+  ],
+  "author": "Danilo Serafim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilobserafim/microservices_DIO/issues"
+  },
+  "homepage": "https://github.com/danilobserafim/microservices_DIO#readme",
+  "dependencies": {
+    "node": "^17.4.0",
+    "typescript": "^4.5.5"
+  }
+}
