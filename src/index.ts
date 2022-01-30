@@ -14,7 +14,7 @@ app.use(userRoute);
 app.use(statusRoute)
 
 app.get("/", (req: Request, res: Response, next: Next) => {
-    res.send("Escolha para que rota deseja seguir: status ou users")
+    res.send("<h1>Escolha para que rota deseja seguir: status ou users</h1>")
 })
 
 
